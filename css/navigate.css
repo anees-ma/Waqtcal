@@ -1,0 +1,47 @@
+@charset "utf-8";
+.navbar-tshop {
+	width: 100%;
+}
+.menuWrap {
+	border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+.navbar {
+	margin-bottom: 0;
+}
+.navbar-nav {
+	margin-top: 10px;
+}
+.navbar .navbar-top {
+	transition: all 0.1s ease-out 0s;
+	-webkit-transition: all 0.1s ease-out 0s;
+	-moz-transition: all 0.1s ease-out 0s;
+	-ms-transition: all 0.1s ease-out 0s;
+	-o-transition: all 0.1s ease-out 0s;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 11px;
+	text-transform: uppercase;
+	background: #485052;
+}
+.navbar .navbar-top .navbar.stuck .navbar-top {
+	margin-top: -30px;
+}
+
+@media (min-width:979px) {
+
+.navbar.stuck .brandWrap {
+	height: 0;
+	overflow: hidden;
+}
+}
+.navbar-nav > li > a {
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 17px 15px;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	color: #E30613;
+	background-color: transparent;
+}
